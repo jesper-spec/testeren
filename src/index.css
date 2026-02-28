@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cinzel", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-eternal-black: #050505;
+  --color-eternal-purple: #4c1d95;
+  --color-eternal-blue: #1e3a8a;
+  --color-eternal-silver: #c0c0c0;
+}
+
+@layer base {
+  body {
+    @apply bg-eternal-black text-white font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-widest;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.glass-silver {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-[0_0_15px_rgba(192,192,192,0.1)];
+}
+
+.text-gradient-silver {
+  @apply bg-gradient-to-b from-white via-eternal-silver to-gray-500 bg-clip-text text-transparent;
+}
