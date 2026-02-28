@@ -7,6 +7,7 @@ const albums = [
   { title: "BTNHResurrection", year: "2000", img: "https://picsum.photos/seed/resurrection/600/600" },
   { title: "Thug World Order", year: "2002", img: "https://picsum.photos/seed/thugworld/600/600" },
   { title: "Uni-5: The World's Enemy", year: "2010", img: "https://picsum.photos/seed/uni5/600/600" },
+  
 ];
 
 export function Discography() {
@@ -14,7 +15,7 @@ export function Discography() {
     <section id="discography" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-black text-gradient-silver mb-4 uppercase">DISCOGRAPHY</h2>
+          <h2 className="text-4xl md:text-6xl font-black text-gradient-silver mb-4 uppercase">DISCOGRAPHYY</h2>
           <div className="h-1 w-24 bg-eternal-purple mx-auto rounded-full" />
         </div>
 
